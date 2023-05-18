@@ -3,12 +3,15 @@ package com.duberlyguarnizo.courierapp.enums;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)
-public enum UserStatus {
-    ACTIVE("Activo"),
-    INACTIVE("Inactivo");
+public enum EmployeeRole {
+    ADMIN("Administrador"),
+    SUPERVISOR("Supervisor"),
+    DISPATCHER("Despachador"),
+    TRANSPORTER("Transportista"),
+    CLIENT("Cliente");
     public final String label;
 
-    UserStatus(String label) {
+    EmployeeRole(String label) {
         this.label = label;
     }
 

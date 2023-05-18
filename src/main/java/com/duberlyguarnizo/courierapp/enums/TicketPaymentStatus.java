@@ -1,2 +1,5 @@
-package com.duberlyguarnizo.courierapp.enums;public enum TicketPaymentStatus {
+package com.duberlyguarnizo.courierapp.enums;
+
+public enum TicketPaymentStatus {
+    PAID, UNPAID
 }
